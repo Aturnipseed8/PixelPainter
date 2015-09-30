@@ -26,11 +26,11 @@ function pixelPainterThing() {
   logo.id = 'logo';
 
   var colorHeading = document.createElement('h1');
-  colorHeading.innerHTML = 'Pixel Painter';
+  colorHeading.innerHTML = 'PIXEL PAINTER';
 
   var clearButton = document.createElement('button');
   clearButton.id = 'clear_button';
-  clearButton.innerHTML = 'Art is hard lets start over';
+  clearButton.innerHTML = 'START OVER';
 
   var colorSwatch = document.createElement('div');
   colorSwatch.id = 'color_swatch';
@@ -48,7 +48,7 @@ function pixelPainterThing() {
 
   var eraseButton = document.createElement('button');
   eraseButton.id = 'erase_button';
-  eraseButton.innerHTML = 'Erase';
+  // eraseButton.innerHTML = 'Erase';
 
   var colorSelected;
   var colorClassArray = document.getElementsByClassName('color_box');
@@ -109,7 +109,7 @@ function pixelPainterThing() {
 
 
   var colorSwatchGridGenerator = function(column, row) {
-    var count
+    var count;
     for (var i = 1; i <= row; i++) {
       var theRow = document.createElement('div');
       theRow.setAttribute('id', 'colorrow' + i);
