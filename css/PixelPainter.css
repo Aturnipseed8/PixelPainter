@@ -31,17 +31,27 @@ h1{
 
 #clear_button{
   border: 1px solid #777855;
+  font-family: verdana;
   width: 170px;
   height: 50px;
   text-align: center;
   line-height: 50px;
-  font-size: 24px;
+  font-size: 18px;
   color: #DEDFBE;
   background-color: #252118;
+ 
 }
 
 #erase_button{
   background-image: url('../css/red-slash.svg');
+  border: 1px solid #777855;
+  width: 40px;
+  height: 40px;
+  background-color: #F8F8FF;
+}
+
+#undo_button{
+  background-image: url('../css/undo.svg');
   border: 1px solid #777855;
   width: 40px;
   height: 40px;
